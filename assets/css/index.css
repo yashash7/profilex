@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -15,13 +18,13 @@ hr {
     width: 100%;
     position: fixed;
     color: antiquewhite;
-    height: 110px;
+    height: 125px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);
 }
 .c1 {
-    margin-top: 97px;
+    margin-top: 125px;
 }
 .res {
     float: right;
@@ -70,7 +73,7 @@ img {
 }
 .top {
     text-align: center; 
-    padding: 25px;
+    padding: 16px;
     line-height: 3;
     font-size: 1.75em;
 }
@@ -104,35 +107,53 @@ code {
     text-decoration: none;
     border-radius: 7px;
 }
-.code {
+/*.code {
     margin-left: 25%;
-}
+}*/
 .code1 {
-    margin-left: 20%;
+    margin-right: 25%;
+    margin-left: 0;
 }
-.soc {
+.soci {
     color: black;
-    font-size: x-large;
+    font-size: 43px;
 }
-.soc:hover {
-    color: rgba(0, 0, 0, 0.5);
+.socl {
+    color: black;
+    font-size: 43px;
+}
+.soct {
+    color: black;
+    font-size: 40px;
+}
+.soci:hover {
+    color: magenta;
     transition: ease-out 16ms;
 }
+.socl:hover {
+    color: blue;
+    transition: ease-out 16ms;
+}
+.soct:hover {
+    color: skyblue;
+    transition: ease-out 16ms;
+}
+
 @media screen and (max-width: 800px) {
     .mthin {
         width: 120px;
     }
     .header {
-        padding: 7px;
+        padding: 5px;
         font-size: x-small;
-        height: 34px;
+        height: 45px;
     }
     #hd {
         font-size: x-small;
     }
     #hdr {
         font-size: x-small;
-        padding: 7px;
+        padding: 5px;
     }
     .c1 {
         margin: 0;
@@ -165,13 +186,20 @@ code {
         font-size: xx-small;
     }
     .code, .code1 {
-        margin-left: 25px;
+        margin-right: 16px;
+        margin-left: -52px;
         font-size: xx-small;
     }
-    .soc, #xxsm1 {
+    .soci, .socl, .soct {
+        font-size: 16px;
+    }
+    #xxsm1 {
         font-size: xx-small;
     }
     .cnt {
+        font-size: xx-small;
+    }
+    footer code {
         font-size: xx-small;
     }
 }
