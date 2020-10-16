@@ -187,7 +187,7 @@ code {
     }
     .code, .code1 {
         margin-right: 16px;
-        margin-left: -52px;
+        /*margin-left: -52px;*/
         font-size: xx-small;
     }
     .soci, .socl, .soct {
