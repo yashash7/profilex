@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: yashashchandra.me
+Token: d497c971b669d5bf89da143c4bb480a73fb6bdf450ab68bdfdd52858b80e8c94
