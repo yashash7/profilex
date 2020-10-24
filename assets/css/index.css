@@ -92,7 +92,7 @@ code {
 .footer {
     font-size: x-large;
     text-align: left;
-    height: auto;
+    height: 100%;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -144,6 +144,11 @@ code {
     transition: ease-out 16ms;
 }
 */
+#w3v {
+    border: 0;
+    height: 34px;
+    width: 88px;
+}
 
 @media screen and (max-width: 800px) {
     .mthin {
@@ -177,7 +182,7 @@ code {
     }
     .footer {
         text-align: center;
-        height: auto;
+        height: 100%;
         padding: 7px;
         font-size: xx-small;
     }
@@ -196,7 +201,7 @@ code {
         /*margin-left: -52px;*/
         font-size: xx-small;
     }
-    .soci, .socl, .soct {
+    .soci, .socl, .socg, .soct {
         font-size: 16px;
     }
     #xxsm1 {
@@ -207,5 +212,12 @@ code {
     }
     footer code {
         font-size: xx-small;
+    }
+    #w3v {
+        border: 0;
+        bottom: 0;
+        height: 16px;
+        margin-top: -10px;
+        width: 70px;
     }
 }
