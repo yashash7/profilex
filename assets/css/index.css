@@ -122,10 +122,15 @@ code {
     color: black;
     font-size: 43px;
 }
+.socg {
+    color: black;
+    font-size: 40px;
+}
 .soct {
     color: black;
     font-size: 40px;
 }
+/*
 .soci:hover {
     color: magenta;
     transition: ease-out 16ms;
@@ -138,6 +143,7 @@ code {
     color: skyblue;
     transition: ease-out 16ms;
 }
+*/
 
 @media screen and (max-width: 800px) {
     .mthin {
