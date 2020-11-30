@@ -17,11 +17,12 @@ hr {
 .header {
     width: 100%;
     position: fixed;
-    color: antiquewhite;
+    color: black;
     height: 125px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);
+    /*background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);*/
+    background: white;
 }
 .c1 {
     margin-top: 125px;
@@ -30,7 +31,7 @@ hr {
     float: right;
     text-decoration: none;
     margin: 25px;
-    color: antiquewhite; 
+    color: black; 
     font-size: larger;
 }
 .res:hover {
