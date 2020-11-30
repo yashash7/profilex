@@ -4,7 +4,7 @@ html {
 body {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    background: navyblue;
+    background: white;
 }
 
 hr {
@@ -22,7 +22,7 @@ hr {
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     /*background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);*/
-    background: white;
+    background: darkgray;
 }
 .c1 {
     margin-top: 125px;
