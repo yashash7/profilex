@@ -22,7 +22,7 @@ hr {
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     /*background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);*/
-    background: black;
+    background: white;
 }
 .c1 {
     margin-top: 125px;
@@ -36,12 +36,13 @@ hr {
 }
 .res:hover {
     text-decoration: none;
-    color: azure;
+    color:#000080;
     padding: 7px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #hd {
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
 }
 #hdr {
@@ -49,7 +50,7 @@ hr {
     padding: 25px;
 }
 .btn {
-    color: azure;
+    color: #000080;
     font-size:larger;
     font-weight: 600;
 }
@@ -83,7 +84,7 @@ img {
     text-decoration: none;
 }
 .rep:hover {
-    color: seashell;
+    color: #000080;
     text-decoration: none;    
 }
 code {
