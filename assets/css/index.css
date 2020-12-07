@@ -128,10 +128,12 @@ code {
     color: black;
     font-size: 40px;
 }
+/*
 .soci:hover {
     color: magenta;
     transition: ease-out 16ms;
 }
+
 .socl:hover {
     color: blue;
     transition: ease-out 16ms;
@@ -140,13 +142,14 @@ code {
     color: skyblue;
     transition: ease-out 16ms;
 }
+*/
 
 @media screen and (max-width: 800px) {
     .mthin {
         width: 120px;
     }
     .header {
-        padding: 5px;
+        padding: 10px;
         font-size: x-small;
         height: 45px;
     }
@@ -155,7 +158,7 @@ code {
     }
     #hdr {
         font-size: x-small;
-        padding: 5px;
+        padding: 10px;
     }
     .c1 {
         margin: 0;
