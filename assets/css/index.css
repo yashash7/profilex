@@ -143,10 +143,21 @@ code {
     transition: ease-out 16ms;
 }
 */
+@media screen and (max-width: 1050px) {
+    #hd {
+        font-size: x-large;
+        
+    }
+    #hdr {
+        font-size: x-large;
+        padding: 10px;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .mthin {
-        width: 120px;
+        width: 175px;
+        height: 175px;
     }
     .header {
         padding: 10px;
@@ -154,10 +165,11 @@ code {
         height: 45px;
     }
     #hd {
-        font-size: x-small;
+        font-size: medium;
+        
     }
     #hdr {
-        font-size: x-small;
+        font-size: medium;
         padding: 10px;
     }
     .c1 {
@@ -206,5 +218,16 @@ code {
     }
     footer code {
         font-size: xx-small;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #hd {
+        font-size: x-small;
+        
+    }
+    #hdr {
+        font-size: x-small;
+        padding: 10px;
     }
 }
